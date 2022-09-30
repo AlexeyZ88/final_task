@@ -25,7 +25,7 @@ foreach (string Item in SourseString)
    int Length = Item.Length;
    if (Length<4) 
    {
-Console.WriteLine(Item);
+Console.WriteLine($">> {Item}");
    }
     
 }
