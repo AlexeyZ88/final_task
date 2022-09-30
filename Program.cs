@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Начинаем");
+int r = new Random().Next (0,10);
 string [] str = new string [10];
 str[0] = "Не совершай классическую ошибку всех умников: не думай, что нет людей умнее тебя.";
 str[1] = "Все мы гении. Но если вы будете судить рыбу по её способности взбираться на дерево, она проживёт всю жизнь, считая себя дурой.";
@@ -31,4 +31,4 @@ Console.WriteLine(Item);
 }
 
 }
- ThreeCharMax (SplitString(str[0]));
+ ThreeCharMax (SplitString(str[r]));
