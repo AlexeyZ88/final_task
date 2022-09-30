@@ -17,3 +17,18 @@ string [] SplitString (string SourseStr)
     string [] ArrayOfString = SourseStr.Split(" ");
     return ArrayOfString;
 }
+
+void ThreeCharMax (string [] SourseString)
+{
+foreach (string Item in SourseString)
+{
+   int Length = Item.Length;
+   if (Length<4) 
+   {
+Console.WriteLine(Item);
+   }
+    
+}
+
+}
+ ThreeCharMax (SplitString(str[0]));
